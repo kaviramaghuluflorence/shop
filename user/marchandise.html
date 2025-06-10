@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marchandises</title>
+    <link rel="stylesheet" href="../bootstrap/bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../style/style.css">
+</head>
+<body>
+    <nav
+    class="navbar navbar-expand-sm navbar-light bg-info"
+>
+    <div class="container">
+        <a class="navbar-brand" href="#">SHOP</a>
+  
+        <button
+            class="navbar-toggler d-lg-none"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+        >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div  id="collapsibleNavId">
+            <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" href="../index.html" aria-current="page"
+                        >Accueil
+                        </a
+                    >
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../user/client.html">Client</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../user/marchandise.html">Marchandises</a>
+                </li><li class="nav-item">
+                    <a class="nav-link" href="../user/fournisseur.html">Fournisseur</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn btn-succes bg-success text-light" href="../user/login.html" >Connexion</a>
+                </li>
+                
+            </ul>
+            
+        </div>
+    </div>
+</nav> 
+<div class="card w-75 rounded-3 p-5">
+   <h4 class="text-center text-light">ENREGISTREMENT MARCHANDISES</h4>
+   <form action="">
+    <div class="fa">
+        <input  type="date" placeholder="Date fabrication">
+    </div>
+    <div class="groupe row">
+        <div class="partie1 col-lg-6">
+            <input class="form-control" type=""placeholder=" Nom marchandise" >
+            <input class="form-control" type=""placeholder=" Marque" >
+            <input class="form-control" type=""placeholder=" Détail marchandises" >
+        </div>
+        <div class="partie2 col-lg-6"><select name="" id="">
+            <option value="" selected disabled>Type marchandises</option>
+            <option value="">1</option>
+            <option value="">2</option>
+            <option value="">3</option>
+
+            <input class="form-control" type=""placeholder=" Amortissement" >
+        </select>
+        </div>
+    </div>
+    <center><div class="btn btn-success w-50  mt-5">ENREGISTRER </div> </center>
+   </form>
+</div>
+<table class="table table-striped table-inverse table-responsive w-75 rounded-3 p-5 ">
+    <h4 class="text-center" >LISTE DES MARCHANDISES</h4>
+    <thead class="thead-inverse">
+        <tr><th>Date de fabrication</th>
+            <th>Nom de marchandise</th>
+            <th>mMarque </th>
+            <th>Détails marchandise </th>
+            <th>Amortissement</th>
+            <th>Type marchandise</th>
+            
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td scope="row">M01</td>
+                <td>HAKEEM</td>
+                <td>BOOBA</td>
+                <td>KING</td>
+                <td>masculin</td>
+                <td>mont fleury</td>
+            </tr>
+            <tr>
+                <td scope="row">M02</td>
+                <td>MONSIEUR</td>
+                <td>CHIM</td>
+                <td> JK</td>
+                <td>masculin</td>
+                <td>DUBAI</td>
+              >
+            </tr>
+            <tr>
+                <td scope="row">M03</td>
+                <td>CORRINE</td>
+                <td>SAMY</td>
+                <td> COSABI</td>
+                <td>feminin</td>
+                <td>kapara</td>
+               
+            </tr>
+            <tr>
+                <td scope="row">M04</td>
+                <td>ELIE</td>
+                <td>YAFFA</td>
+                <td> B2o</td>
+                <td>masculin</td>
+                <td>92 izzi</td>
+               
+            </tr>
+            <tr>
+                <td scope="row">M05</td>
+                <td>DIDISTONE</td>
+                <td>OLOMIDE</td>
+                <td> LONGUE</td>
+                <td>feminin</td>
+                <td>paris</td>
+                
+            </tr>
+        </tbody>
+</table>
+
+<footer>
+    <div class="footer row">
+        <div class="col-lg-3">
+            <h4>Shop</h4>
+            <p>l'amour du christ nous presse </p>
+            <p>Butembo/av.MATOKEYO</p>
+            <P> contacte +243977870792</P>
+            <a href=""><p>joachimkitsuku@gmail.com</p></a>
+         
+             </div>
+             <div class="col-lg-3">
+                <strong>
+                    <h4>liens rapide </h4>
+                </strong>
+                <p> Acceuil </p>
+                <p>A propot</p>
+                <p>service</p>
+                <p>contributions</p>
+             </div>
+             
+    <div class="col-lg-3">
+        <strong>
+            <h4>nos service</h4>
+        </strong>
+        <p>vente à linge</p>
+        <p>vente jusqu'a domicile</p>
+        <p>Autre chose</p>
+    </div>
+    <div class="col-lg-3">
+        <h4>Newsletter</h4>
+        <p>Abonnez-vous pour recevoir <br> nos actualité</p>
+        <a href="">joachimkitsuku.Dev</a>
+    </div>
+</footer>
+<script src="bootstrap/bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/js/bootstrap.js"></script>
+</body>
+</html>
